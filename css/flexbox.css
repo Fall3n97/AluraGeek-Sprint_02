@@ -1,0 +1,23 @@
+.headerPrincipal .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.containerLogo {
+  display: inline-flex;
+  align-items: center;
+}
+
+.containerLogo h1{
+  float: left;
+}
+
+.containerLogo input{
+  display: inline-block;
+}
+
+.headerPrincipal-boton{
+  display: inline;
+  width: 20%;
+}
