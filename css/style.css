@@ -14,20 +14,18 @@ body {
 }
 
 .containerLogo{
-  width: 80%;
+  width: 60%;
 }
 
 
 .containerLogo input{
-  background: url(../img/search.png) no-repeat scroll 8px 8px;
-  background-position: 95%;
   font-family: "Raleway", sans-serif;
   height: 24px;
   padding: 8px 16px;
-  margin: auto 32px;
+  margin: 0 0 0 32px;
   width: 40%;
   border: none;
-  border-radius: 20px;
+  border-radius: 20px 0 0 20px;
   background-color: #F5F5F5;
   font-size: 14px;
 }
@@ -35,6 +33,15 @@ body {
 .containerLogo input::placeholder {
   font-weight: 300;
   color: #A2A2A2;
+}
+
+.containerLogo button{
+  border: none;
+  border-radius: 0 20px 20px 0;
+  background-color: #F5F5F5;
+  height: 40px;
+  padding-right: 16px;
+  cursor: pointer;
 }
 
 .headerPrincipal-boton button{
@@ -47,4 +54,5 @@ body {
     font-weight: 600;
     border: solid 1px #2A7AE4;
     color: #2A7AE4;
+    cursor: pointer;
 }

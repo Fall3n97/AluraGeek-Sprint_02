@@ -1,11 +1,13 @@
 .headerPrincipal .container{
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
 }
 
 .containerLogo {
-  display: inline-flex;
+  display: flex;
+  flex-direction: row;
   align-items: center;
 }
 
@@ -14,7 +16,15 @@
 }
 
 .containerLogo input{
-  display: inline-block;
+  flex-grow: 2;
+}
+
+.containerLogo input:focus{
+  outline: none;
+}
+
+.containerLogo:focus-within{
+  outline: 1px #2A7AE4;
 }
 
 .headerPrincipal-boton{
