@@ -1,3 +1,4 @@
+
 .headerPrincipal .container{
   display: flex;
   flex-direction: row;
@@ -30,4 +31,39 @@
 .headerPrincipal-boton{
   display: inline;
   width: 20%;
+}
+
+.articles-title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.articles-title a{
+  font-size: 16px;
+  color: #2A7AE4;
+  font-weight: 600;
+}
+
+.articleContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    gap: 16px;
+}
+
+.article-link {
+  box-sizing:border-box;
+  flex-grow: 2;
+}
+
+.article-link-text{
+  display: flex;
+  flex-direction: column;
 }
