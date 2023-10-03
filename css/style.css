@@ -111,6 +111,11 @@ body {
   padding: 64px 0 16px 0;
 }
 
+.articles-title a{
+  text-decoration: none;
+  color: #2A7AE4;
+}
+
 /* .articleContainer{
   padding: 32px 0;
 } */
@@ -124,10 +129,6 @@ body {
 
 .article-link{
   position: relative;
-}
-
-.article-link img{
-  
 }
 
 
@@ -148,4 +149,9 @@ body {
   font-weight: 600;
   text-decoration: none;
   color: #2A7AE4;
+}
+
+.Footer{
+  background-color: #EAF2FD;
+  padding: 64px 0;
 }
