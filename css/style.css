@@ -6,6 +6,7 @@ body {
 .headerPrincipal {
   background-color: #FFF;
   padding: 20px 0;
+  position: relative;
 }
 
 .container {
@@ -55,4 +56,48 @@ body {
     border: solid 1px #2A7AE4;
     color: #2A7AE4;
     cursor: pointer;
+}
+
+.heroImg{
+  background-image: url(../img/banner-image.png);
+  height: 352px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.heroText{
+  text-align: left;
+  position: relative;
+  transform: translate(10%, 80%);
+  color: #FFF;
+  line-height: 1.3;
+}
+
+.heroText h1{
+  font-size: 52px;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.heroText h3{
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.heroText button {
+  font-family: "Raleway", sans-serif;
+  border: none;
+  outline: 0;
+  font-size: 16px;
+  font-weight: 200;
+  height: 51px;
+  display: inline-block;
+  padding: 16px 16px;
+  color: #FFF;
+  background-color: #2A7AE4;
+  text-align: center;
+  cursor: pointer;
+  margin: 16px 0;
 }
