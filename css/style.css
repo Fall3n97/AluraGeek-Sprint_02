@@ -8,6 +8,12 @@ button{
   cursor: pointer;
 }
 
+input{
+  border: none;
+  box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
 .headerPrincipal {
   background-color: #FFF;
   padding: 20px 0;
@@ -20,6 +26,7 @@ button{
 
 .containerLogo{
   width: 60%;
+  border: none;
 }
 
 
@@ -29,10 +36,10 @@ button{
   padding: 8px 16px;
   margin: 0 0 0 32px;
   width: 40%;
-  border: none;
   border-radius: 20px 0 0 20px;
   background-color: #F5F5F5;
   font-size: 14px;
+  box-shadow: none;
 }
 
 .containerLogo input::placeholder {
@@ -154,6 +161,54 @@ button{
   color: #2A7AE4;
 }
 
+/* -----LOGIN---------- */
+
+
+.loginForm{
+  padding: 92px 0;
+  margin: 0 auto;
+  margin-top: 94px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  gap: 25px;
+}
+
+.loginForm h2{
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.loginForm input{
+  font-family: 'Raleway', sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 26px 12px;
+}
+
+.loginForm input::placeholder{
+  color: #A2A2A2;
+  font-size: 16px;
+  font-weight: 200;
+}
+
+.loginForm button{
+  background-color: #2A7AE4;
+  border: none;
+  color: #FFF;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 100;
+  width: 100%;
+  padding: 16px 12px;
+}
+
+
+/* -----FOOTER------- */
+
 .Footer{
   background-color: #EAF2FD;
   padding-top: 64px;
@@ -172,7 +227,6 @@ button{
 }
 
 .FooterForm input{
-  border: none;
   width: 100%;
   border-radius: 4px;
   padding: 7px 12px;
