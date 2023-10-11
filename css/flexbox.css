@@ -6,6 +6,13 @@
   justify-content: space-between;
 }
 
+.headerPrincipal{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
 .containerLogo {
   display: flex;
   flex-direction: row;
@@ -31,6 +38,9 @@
 .headerPrincipal-boton{
   display: inline;
   width: 20%;
+}
+.hero .container{
+  margin-top: 60px;
 }
 
 .articles-title{

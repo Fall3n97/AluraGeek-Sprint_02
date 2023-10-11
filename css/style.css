@@ -62,13 +62,13 @@ button{
 }
 
 .contenidoPrincipal {
-	margin-top: 5px;
-	margin-bottom: 20px;
+	padding-bottom: 20px;
 }
 
 .heroImg{
   background-image: url(../img/banner-image.png);
   height: 352px;
+  margin-top: 94px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
