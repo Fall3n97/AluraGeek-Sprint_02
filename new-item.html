@@ -17,17 +17,38 @@
                 </h1>
                 <input type="text" placeholder="¿Qué deseas buscar?"/>
                 <button><img src="./img/search.png" /></button>
-              </div>
+                </div>
+                <div class="headerPrincipal-boton">
+                    <a href="/login.html"><button>Menú Administrador</button></a>
+                </div>
                 </nav>
             </header>
 
-            <main class="contenidoPrincipal">
+            <main class="contenidoPrincipal add">
                 <section class="container">
-                    <div class="loginForm">
-                        <h2>Iniciar Sesión</h2>
-                        <input type="text" placeholder="Escriba su correo electrónico">
-                        <input type="text" placeholder="Escriba su contraseña">
-                        <button>Entrar</button>
+                    <div class="addForm">
+                        <h2>Agregar nuevo producto</h2>
+                            <div class="inputStyled">
+                                <input type="text" class="addInput" required>
+                                <span class="floating-label">URL de imagen</span>
+                            </div>
+                            <div class="inputStyled">
+                                <input type="text" class="addInput" required>
+                                <span class="floating-label">Categoría</span>
+                            </div>
+                            <div class="inputStyled">
+                                <input type="text" class="addInput" required>
+                                <span class="floating-label">Nombre del producto</span>
+                            </div>
+                            <div class="inputStyled">
+                                <input type="text" class="addInput" required>
+                                <span class="floating-label">Precio del producto</span>
+                            </div>
+                            <div class="inputStyled">
+                                <input type="text" class="addInput description" required>
+                                <span class="floating-label">Descripción del producto</span>
+                            </div>
+                        <button>Agregar producto</button>
                     </div>
 
                 </section>
