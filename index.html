@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/flexbox.css">
-	<script src="./interaction.js"></script>
+	<link rel="stylesheet" href="css/validaciones.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;600&display=swap" rel="stylesheet">
@@ -270,14 +270,17 @@
 						<div class="FooterForm">
 							<h3>Habla Con Nosotros</h3>
 							<label for="FooterForm-Input-Name">Nombre</label>
-							<input type="text" id="FooterForm-Input-Name" />
-							<input type="text" id="FooterForm-Input-Message" placeholder="Escribe tu Mensaje" />
+							<input name="name" id="FooterForm-Input-Name" class="input-valid" type="text" required data-tipo="nombre" />
+							<span class="input-mensaje-error">Este campo no es valido</span>
+							<input name="mensajeEmail" type="text" id="FooterForm-Input-Message" class="input-valid" placeholder="Escribe tu Mensaje" required data-tipo="mensajeEmail" maxlength="120"/>
+							<span class="input-mensaje-error">Este campo no es valido</span>
 							<button>Enviar Mensaje</button>
 						</div>
 			</section>
 		</section>
 		<div class="developer">Coded by Ian Badillo <br>2023<br><strong>Work In Progress</strong></div>
 	</footer>
-
+	<script src="./js/interaction.js"></script>
+	<script src="./js/app.js" type="module"></script>
 </body>
 </html>
