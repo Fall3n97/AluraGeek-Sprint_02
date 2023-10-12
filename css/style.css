@@ -301,6 +301,46 @@ input:not(:focus):valid ~ .floating-label{
   margin-bottom: 64px;
 }
 
+/* ----ITEM DETAILED----- */
+
+.articles-title.similares{
+  padding: 0 0 16px 0;
+}
+
+.articles-title.similares h2{
+  margin: 0;
+}
+
+.itemDetails{
+  padding: 64px 0;
+  margin-top: 94px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.itemDetails img{
+  width: 100%;
+}
+
+.item-text{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+}
+
+.item-text h1{
+  font-size: 52px;
+}
+
+.item-text span{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: auto;
+}
+
 /* -----FOOTER------- */
 
 .Footer{
