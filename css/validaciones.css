@@ -1,23 +1,23 @@
-.FooterForm--invalid {
+.input-container--invalid {
     margin-bottom: 0.5rem;
 }
   
-.FooterForm--invalid .input {
-    border: 1px solid var(--warning-color);
+.input-container--invalid .input-valid {
+    border: 1px solid red;
     border-radius: 7px;
 }
   
-.FooterForm--invalid .input-label {
-    color: var(--warning-color);
+.input-container--invalid .input-label {
+    color: red;
 }
   
 .input-mensaje-error{
     display: none;
 }
   
-.FooterForm--invalid .input-mensaje-error {
+.input-container--invalid .input-mensaje-error {
     color: red;
     display: block;
-    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
     padding-left: 0.5rem;
 }

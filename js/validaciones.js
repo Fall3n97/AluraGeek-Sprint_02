@@ -7,10 +7,10 @@ export function valida(input) {
     console.log(input.parentElement);
 
     if(input.validity.valid){
-        input.parentElement.classList.remove("FooterForm--invalid");
+        input.parentElement.classList.remove("input-container--invalid");
         input.parentElement.querySelector(".input-mensaje-error").innerHTML = "";
     }else {
-        input.parentElement.classList.add("FooterForm--invalid");
+        input.parentElement.classList.add("input-container--invalid");
         input.parentElement.querySelector(".input-mensaje-error").innerHTML = mostrarMensajeDeError(tipoDeInput, input);
     }
 };
@@ -54,6 +54,6 @@ function mostrarMensajeDeError(tipoDeInput, input){
             console.log(mensajesDeError[tipoDeInput][error]);
             mensaje = mensajesDeError[tipoDeInput][error];
         }
-    });
+    })
     return mensaje;
 }

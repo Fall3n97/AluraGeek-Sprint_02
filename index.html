@@ -23,7 +23,7 @@
         <button><img src="./img/search.png" /></button>
       </div>
 			<div class="headerPrincipal-boton">
-          <a href="/login.html"><button>Login</button></a>
+          <a href="/screens/login.html"><button>Login</button></a>
       </div>
 		</nav>
 	</header>
@@ -41,12 +41,12 @@
 		<section class="container">
 			<div class="articles-title">
 					<h2 class="sectionName">Star Wars</h2>
-					<a href="/all-items.html">Ver Todo -></a>
+					<a href="/screens/all-items.html">Ver Todo -></a>
 			</div>
 			<nav class="articleContainer">
 				<ul class="articles">
 					<li class="article-link">
-						<a href="/item.html">
+						<a href="/screens/item.html">
 							<img src="./img/starwars/sw1.png" alt="articulo 1"/>
 						</a>
 					<div class="article-link-text">
@@ -112,7 +112,7 @@
 		<section class="container" id="consoles">
 			<div class="articles-title">
 					<h2 class="sectionName">Consolas</h2>
-					<a href="/all-items.html">Ver Todo -></a>
+					<a href="/screens/all-items.html">Ver Todo -></a>
 			</div>
 			<nav class="articleContainer">
 				<ul class="articles">
@@ -183,7 +183,7 @@
 		<section class="container">
 			<div class="articles-title">
 					<h2 class="sectionName">Diversos</h2>
-					<a href="/all-items.html">Ver Todo -></a>
+					<a href="/screens/all-items.html">Ver Todo -></a>
 			</div>
 			<nav class="articleContainer">
 				<ul class="articles">
@@ -267,15 +267,19 @@
 							<li><a href="#">Quiero ser franquiciado</a></li>
 							<li><a href="#">Anunciate aquí</a></li>
 						</ul>
-						<div class="FooterForm">
+						<form class="FooterForm">
 							<h3>Habla Con Nosotros</h3>
-							<label for="FooterForm-Input-Name">Nombre</label>
-							<input name="name" id="FooterForm-Input-Name" class="input-valid" type="text" required data-tipo="nombre" />
-							<span class="input-mensaje-error">Este campo no es valido</span>
-							<input name="mensajeEmail" type="text" id="FooterForm-Input-Message" class="input-valid" placeholder="Escribe tu Mensaje" required data-tipo="mensajeEmail" maxlength="120"/>
-							<span class="input-mensaje-error">Este campo no es valido</span>
-							<button>Enviar Mensaje</button>
-						</div>
+								<div class="input-container">
+									<label for="FooterForm-Input-Name">Nombre</label>
+									<input name="name" id="FooterForm-Input-Name" class="input-valid" type="text" required data-tipo="nombre" />
+									<span class="input-mensaje-error">Este campo no es valido</span>
+								</div>
+								<div class="input-container">
+									<textarea name="mensajeEmail" type="text" id="FooterForm-Input-Message" class="input-valid" placeholder="Escribe tu Mensaje" required data-tipo="mensajeEmail" maxlength="120"></textarea>
+									<span class="input-mensaje-error">Este campo no es valido</span>
+								</div>
+									<button>Enviar Mensaje</button>
+							</form>
 			</section>
 		</section>
 		<div class="developer">Coded by Ian Badillo <br>2023<br><strong>Work In Progress</strong></div>

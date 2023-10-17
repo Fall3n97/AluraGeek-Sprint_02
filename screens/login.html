@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>AluraGeek | Login</title>
+        <link rel="stylesheet" href="../css/reset.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/flexbox.css">
+        <link rel="stylesheet" href="../css/validaciones.css">
+    </head>
+    <body>
+        <header class="headerPrincipal">
+            <nav class="container">
+              <div class="containerLogo">
+                <h1>
+                    <a href="/"><img src="../img/Logo.png" /></a>
+                </h1>
+                <input type="text" placeholder="¿Qué deseas buscar?"/>
+                <button><img src="../img/search.png" /></button>
+              </div>
+                </nav>
+            </header>
+
+            <main class="contenidoPrincipal">
+                <section class="container">
+                    <form class="loginForm" data-formLogin>
+                        <h2>Iniciar Sesión</h2>
+                        <div class="input-container">
+                            <input name="email" type="email" class="input-valid" id="email-login" placeholder="Escriba su correo electrónico" required data-tipo="email">
+                            <span class="input-mensaje-error">Este campo no es valido</span>
+                        </div>
+                        <div class="input-container">
+                             <input name="password" type="password" class="input-valid" id="pass-login" placeholder="Escriba su contraseña" required pattern="^(?=.*[A-Z])(?=.*\d).{6,12}$" title="Al menos 6 caracteres, máximo 12, debe contener una letra minuscula, una mayuscula, y un numero" data-tipo="password">
+                             <span class="input-mensaje-error">Este campo no es valido</span>
+                        </div>
+                        <button id="login-btn">Entrar</button>
+                    </form>
+
+                </section>
+            </main>
+            
+            <footer class="Footer">
+                <section class="container">
+                    <section class="flexContainer">
+                            <div class="Footer-Img">
+                                <img src="../img/Logo.png" />
+                            </div>
+                            <ul class="FooterLinks">
+                                <li><a href="#">Quiénes Somos</a></li>
+                                <li><a href="#">Política de Privacidad</a></li>
+                                <li><a href="#">Programa de Fidelidad</a></li>
+                                <li><a href="#">Nuestras Tiendas</a></li>
+                                <li><a href="#">Quiero ser franquiciado</a></li>
+                                <li><a href="#">Anunciate aquí</a></li>
+                            </ul>
+                            <form class="FooterForm">
+                                <h3>Habla Con Nosotros</h3>
+                                    <div class="input-container">
+                                        <label for="FooterForm-Input-Name">Nombre</label>
+                                        <input name="name" id="FooterForm-Input-Name" class="input-valid" type="text" required data-tipo="nombre" />
+                                        <span class="input-mensaje-error">Este campo no es valido</span>
+                                    </div>
+                                    <div class="input-container">
+                                        <textarea name="mensajeEmail" type="text" id="FooterForm-Input-Message" class="input-valid" placeholder="Escribe tu Mensaje" required data-tipo="mensajeEmail" maxlength="120"></textarea>
+                                        <span class="input-mensaje-error">Este campo no es valido</span>
+                                    </div>
+                                        <button>Enviar Mensaje</button>
+                                </form>
+                </section>
+            </section>
+            <div class="developer">Coded by Ian Badillo <br>2023<br><strong>Work In Progress</strong></div>
+        </footer>
+        <script src="../js/app.js" type="module"></script>
+        <script src="../js/login.js" type="module"></script>
+    </body>
+</html>
