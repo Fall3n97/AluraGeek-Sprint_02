@@ -9,7 +9,7 @@ formLogin.addEventListener("submit", (e) => {
     const passUser = document.querySelector("[data-tipo=password]").value;
 
     clientServices.login().then((data) => {
-            data.forEach(({name, email, password}) => {
+            data.forEach(({email, password}) => {
     
                 if(emailUser === email && passUser === password){
                     window.location.href = "../screens/new-item.html";

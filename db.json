@@ -1,5 +1,142 @@
-[
-    {
-        
-    }
-]
+{   
+    "users": [
+        {
+          "id": 1,
+          "name": "Ian Badillo",
+          "email": "ian@gmail.com",
+          "password": "Geek123"
+        }
+    ],
+    "starwars":[
+        {
+            "id": "001",
+            "name": "Taza de Stoorm Trooper",
+            "price": "60,00",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sem quam, venenatis ut efficitur in, posuere tristique dolor. Vestibulum vestibulum gravida ullamcorper. Integer tincidunt eleifend enim a fringilla. Duis accumsan vitae urna in placerat. Phasellus nec interdum lorem, at cursus nisl. Mauris aliquam faucibus urna ac venenatis. Donec non est euismod, mattis enim id, vulputate quam. Nam pulvinar vitae ipsum et sagittis. Nullam vel tortor ut mi lobortis dapibus. Nunc sodales leo fermentum nibh congue, at semper tortor condimentum. Donec tincidunt libero lorem, at posuere magna semper at. Fusce at felis arcu. Maecenas tincidunt, libero ut sollicitudin egestas, nisi leo mattis diam, et malesuada nisi tellus commodo quam.",
+            "image": "./img/starwars/sw1.png"
+        },
+        {
+            "id": "002",
+            "name": "Sets de Lego Star Wars",
+            "price": "120,00",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sem quam, venenatis ut efficitur in, posuere tristique dolor. Vestibulum vestibulum gravida ullamcorper. Integer tincidunt eleifend enim a fringilla. Duis accumsan vitae urna in placerat. Phasellus nec interdum lorem, at cursus nisl. Mauris aliquam faucibus urna ac venenatis. Donec non est euismod, mattis enim id, vulputate quam. Nam pulvinar vitae ipsum et sagittis. Nullam vel tortor ut mi lobortis dapibus. Nunc sodales leo fermentum nibh congue, at semper tortor condimentum. Donec tincidunt libero lorem, at posuere magna semper at. Fusce at felis arcu. Maecenas tincidunt, libero ut sollicitudin egestas, nisi leo mattis diam, et malesuada nisi tellus commodo quam.",
+            "image": "./img/starwars/sw2.png"
+        },
+        {
+            "id": "003",
+            "name": "Figura de Yoda Articulada",
+            "price": "80,00",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sem quam, venenatis ut efficitur in, posuere tristique dolor. Vestibulum vestibulum gravida ullamcorper. Integer tincidunt eleifend enim a fringilla. Duis accumsan vitae urna in placerat. Phasellus nec interdum lorem, at cursus nisl. Mauris aliquam faucibus urna ac venenatis. Donec non est euismod, mattis enim id, vulputate quam. Nam pulvinar vitae ipsum et sagittis. Nullam vel tortor ut mi lobortis dapibus. Nunc sodales leo fermentum nibh congue, at semper tortor condimentum. Donec tincidunt libero lorem, at posuere magna semper at. Fusce at felis arcu. Maecenas tincidunt, libero ut sollicitudin egestas, nisi leo mattis diam, et malesuada nisi tellus commodo quam.",
+            "image": "./img/starwars/sw3.png"
+        },
+        {
+            "id": "004",
+            "name": "Stoorm Trooper",
+            "price": "200,00",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sem quam, venenatis ut efficitur in, posuere tristique dolor. Vestibulum vestibulum gravida ullamcorper. Integer tincidunt eleifend enim a fringilla. Duis accumsan vitae urna in placerat. Phasellus nec interdum lorem, at cursus nisl. Mauris aliquam faucibus urna ac venenatis. Donec non est euismod, mattis enim id, vulputate quam. Nam pulvinar vitae ipsum et sagittis. Nullam vel tortor ut mi lobortis dapibus. Nunc sodales leo fermentum nibh congue, at semper tortor condimentum. Donec tincidunt libero lorem, at posuere magna semper at. Fusce at felis arcu. Maecenas tincidunt, libero ut sollicitudin egestas, nisi leo mattis diam, et malesuada nisi tellus commodo quam.",
+            "image": "./img/starwars/sw4.png"
+        },
+        {
+            "id": "005",
+            "name": "Grogu",
+            "price": "250,00",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sem quam, venenatis ut efficitur in, posuere tristique dolor. Vestibulum vestibulum gravida ullamcorper. Integer tincidunt eleifend enim a fringilla. Duis accumsan vitae urna in placerat. Phasellus nec interdum lorem, at cursus nisl. Mauris aliquam faucibus urna ac venenatis. Donec non est euismod, mattis enim id, vulputate quam. Nam pulvinar vitae ipsum et sagittis. Nullam vel tortor ut mi lobortis dapibus. Nunc sodales leo fermentum nibh congue, at semper tortor condimentum. Donec tincidunt libero lorem, at posuere magna semper at. Fusce at felis arcu. Maecenas tincidunt, libero ut sollicitudin egestas, nisi leo mattis diam, et malesuada nisi tellus commodo quam.",
+            "image": "./img/starwars/sw5.png"
+        },
+        {
+            "id": "006",
+            "name": "Kylo Ren",
+            "price": "300,00",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sem quam, venenatis ut efficitur in, posuere tristique dolor. Vestibulum vestibulum gravida ullamcorper. Integer tincidunt eleifend enim a fringilla. Duis accumsan vitae urna in placerat. Phasellus nec interdum lorem, at cursus nisl. Mauris aliquam faucibus urna ac venenatis. Donec non est euismod, mattis enim id, vulputate quam. Nam pulvinar vitae ipsum et sagittis. Nullam vel tortor ut mi lobortis dapibus. Nunc sodales leo fermentum nibh congue, at semper tortor condimentum. Donec tincidunt libero lorem, at posuere magna semper at. Fusce at felis arcu. Maecenas tincidunt, libero ut sollicitudin egestas, nisi leo mattis diam, et malesuada nisi tellus commodo quam.",
+            "image": "./img/starwars/sw6.png"
+        }
+        ],
+        "consoles":[
+            {
+                "id": "001",
+                "name": "Control de Xbox One",
+                "price": "2000,00",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sem quam, venenatis ut efficitur in, posuere tristique dolor. Vestibulum vestibulum gravida ullamcorper. Integer tincidunt eleifend enim a fringilla. Duis accumsan vitae urna in placerat. Phasellus nec interdum lorem, at cursus nisl. Mauris aliquam faucibus urna ac venenatis. Donec non est euismod, mattis enim id, vulputate quam. Nam pulvinar vitae ipsum et sagittis. Nullam vel tortor ut mi lobortis dapibus. Nunc sodales leo fermentum nibh congue, at semper tortor condimentum. Donec tincidunt libero lorem, at posuere magna semper at. Fusce at felis arcu. Maecenas tincidunt, libero ut sollicitudin egestas, nisi leo mattis diam, et malesuada nisi tellus commodo quam.",
+                "image": "./img/consoles/console1.png"
+            },
+            {
+                "id": "002",
+                "name": "PlayStation 5",
+                "price": "10,000,00",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sem quam, venenatis ut efficitur in, posuere tristique dolor. Vestibulum vestibulum gravida ullamcorper. Integer tincidunt eleifend enim a fringilla. Duis accumsan vitae urna in placerat. Phasellus nec interdum lorem, at cursus nisl. Mauris aliquam faucibus urna ac venenatis. Donec non est euismod, mattis enim id, vulputate quam. Nam pulvinar vitae ipsum et sagittis. Nullam vel tortor ut mi lobortis dapibus. Nunc sodales leo fermentum nibh congue, at semper tortor condimentum. Donec tincidunt libero lorem, at posuere magna semper at. Fusce at felis arcu. Maecenas tincidunt, libero ut sollicitudin egestas, nisi leo mattis diam, et malesuada nisi tellus commodo quam.",
+                "image": "./img/consoles/console2.png"
+            },
+            {
+                "id": "003",
+                "name": "Super Nintendo",
+                "price": "1,800,00",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sem quam, venenatis ut efficitur in, posuere tristique dolor. Vestibulum vestibulum gravida ullamcorper. Integer tincidunt eleifend enim a fringilla. Duis accumsan vitae urna in placerat. Phasellus nec interdum lorem, at cursus nisl. Mauris aliquam faucibus urna ac venenatis. Donec non est euismod, mattis enim id, vulputate quam. Nam pulvinar vitae ipsum et sagittis. Nullam vel tortor ut mi lobortis dapibus. Nunc sodales leo fermentum nibh congue, at semper tortor condimentum. Donec tincidunt libero lorem, at posuere magna semper at. Fusce at felis arcu. Maecenas tincidunt, libero ut sollicitudin egestas, nisi leo mattis diam, et malesuada nisi tellus commodo quam.",
+                "image": "./img/consoles/console3.png"
+            },
+            {
+                "id": "004",
+                "name": "Controles de Nintendo Switch",
+                "price": "2000,00",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sem quam, venenatis ut efficitur in, posuere tristique dolor. Vestibulum vestibulum gravida ullamcorper. Integer tincidunt eleifend enim a fringilla. Duis accumsan vitae urna in placerat. Phasellus nec interdum lorem, at cursus nisl. Mauris aliquam faucibus urna ac venenatis. Donec non est euismod, mattis enim id, vulputate quam. Nam pulvinar vitae ipsum et sagittis. Nullam vel tortor ut mi lobortis dapibus. Nunc sodales leo fermentum nibh congue, at semper tortor condimentum. Donec tincidunt libero lorem, at posuere magna semper at. Fusce at felis arcu. Maecenas tincidunt, libero ut sollicitudin egestas, nisi leo mattis diam, et malesuada nisi tellus commodo quam.",
+                "image": "./img/consoles/console4.png"
+            },
+            {
+                "id": "005",
+                "name": "Xbox Series X",
+                "price": "12,000,00",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sem quam, venenatis ut efficitur in, posuere tristique dolor. Vestibulum vestibulum gravida ullamcorper. Integer tincidunt eleifend enim a fringilla. Duis accumsan vitae urna in placerat. Phasellus nec interdum lorem, at cursus nisl. Mauris aliquam faucibus urna ac venenatis. Donec non est euismod, mattis enim id, vulputate quam. Nam pulvinar vitae ipsum et sagittis. Nullam vel tortor ut mi lobortis dapibus. Nunc sodales leo fermentum nibh congue, at semper tortor condimentum. Donec tincidunt libero lorem, at posuere magna semper at. Fusce at felis arcu. Maecenas tincidunt, libero ut sollicitudin egestas, nisi leo mattis diam, et malesuada nisi tellus commodo quam.",
+                "image": "./img/consoles/console5.png"
+            },
+            {
+                "id": "006",
+                "name": "Game Boy",
+                "price": "500,00",
+                "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sem quam, venenatis ut efficitur in, posuere tristique dolor. Vestibulum vestibulum gravida ullamcorper. Integer tincidunt eleifend enim a fringilla. Duis accumsan vitae urna in placerat. Phasellus nec interdum lorem, at cursus nisl. Mauris aliquam faucibus urna ac venenatis. Donec non est euismod, mattis enim id, vulputate quam. Nam pulvinar vitae ipsum et sagittis. Nullam vel tortor ut mi lobortis dapibus. Nunc sodales leo fermentum nibh congue, at semper tortor condimentum. Donec tincidunt libero lorem, at posuere magna semper at. Fusce at felis arcu. Maecenas tincidunt, libero ut sollicitudin egestas, nisi leo mattis diam, et malesuada nisi tellus commodo quam.",
+                "image": "./img/consoles/console6.png"
+            }
+            ],
+            "various":[
+                {
+                    "id": "001",
+                    "name": "Playera de Atari",
+                    "price": "60,00",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sem quam, venenatis ut efficitur in, posuere tristique dolor. Vestibulum vestibulum gravida ullamcorper. Integer tincidunt eleifend enim a fringilla. Duis accumsan vitae urna in placerat. Phasellus nec interdum lorem, at cursus nisl. Mauris aliquam faucibus urna ac venenatis. Donec non est euismod, mattis enim id, vulputate quam. Nam pulvinar vitae ipsum et sagittis. Nullam vel tortor ut mi lobortis dapibus. Nunc sodales leo fermentum nibh congue, at semper tortor condimentum. Donec tincidunt libero lorem, at posuere magna semper at. Fusce at felis arcu. Maecenas tincidunt, libero ut sollicitudin egestas, nisi leo mattis diam, et malesuada nisi tellus commodo quam.",
+                    "image": "./img/others/others1.png"
+                },
+                {
+                    "id": "002",
+                    "name": "Playera de Super Nintendo",
+                    "price": "80,00",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sem quam, venenatis ut efficitur in, posuere tristique dolor. Vestibulum vestibulum gravida ullamcorper. Integer tincidunt eleifend enim a fringilla. Duis accumsan vitae urna in placerat. Phasellus nec interdum lorem, at cursus nisl. Mauris aliquam faucibus urna ac venenatis. Donec non est euismod, mattis enim id, vulputate quam. Nam pulvinar vitae ipsum et sagittis. Nullam vel tortor ut mi lobortis dapibus. Nunc sodales leo fermentum nibh congue, at semper tortor condimentum. Donec tincidunt libero lorem, at posuere magna semper at. Fusce at felis arcu. Maecenas tincidunt, libero ut sollicitudin egestas, nisi leo mattis diam, et malesuada nisi tellus commodo quam.",
+                    "image": "./img/others/others2.png"
+                },
+                {
+                    "id": "003",
+                    "name": "Figura de Sonic",
+                    "price": "50,00",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sem quam, venenatis ut efficitur in, posuere tristique dolor. Vestibulum vestibulum gravida ullamcorper. Integer tincidunt eleifend enim a fringilla. Duis accumsan vitae urna in placerat. Phasellus nec interdum lorem, at cursus nisl. Mauris aliquam faucibus urna ac venenatis. Donec non est euismod, mattis enim id, vulputate quam. Nam pulvinar vitae ipsum et sagittis. Nullam vel tortor ut mi lobortis dapibus. Nunc sodales leo fermentum nibh congue, at semper tortor condimentum. Donec tincidunt libero lorem, at posuere magna semper at. Fusce at felis arcu. Maecenas tincidunt, libero ut sollicitudin egestas, nisi leo mattis diam, et malesuada nisi tellus commodo quam.",
+                    "image": "./img/others/others3.png"
+                },
+                {
+                    "id": "004",
+                    "name": "Despertador Retro",
+                    "price": "100,00",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sem quam, venenatis ut efficitur in, posuere tristique dolor. Vestibulum vestibulum gravida ullamcorper. Integer tincidunt eleifend enim a fringilla. Duis accumsan vitae urna in placerat. Phasellus nec interdum lorem, at cursus nisl. Mauris aliquam faucibus urna ac venenatis. Donec non est euismod, mattis enim id, vulputate quam. Nam pulvinar vitae ipsum et sagittis. Nullam vel tortor ut mi lobortis dapibus. Nunc sodales leo fermentum nibh congue, at semper tortor condimentum. Donec tincidunt libero lorem, at posuere magna semper at. Fusce at felis arcu. Maecenas tincidunt, libero ut sollicitudin egestas, nisi leo mattis diam, et malesuada nisi tellus commodo quam.",
+                    "image": "./img/others/others4.png"
+                },
+                {
+                    "id": "005",
+                    "name": "Kit VR",
+                    "price": "3,500,00",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sem quam, venenatis ut efficitur in, posuere tristique dolor. Vestibulum vestibulum gravida ullamcorper. Integer tincidunt eleifend enim a fringilla. Duis accumsan vitae urna in placerat. Phasellus nec interdum lorem, at cursus nisl. Mauris aliquam faucibus urna ac venenatis. Donec non est euismod, mattis enim id, vulputate quam. Nam pulvinar vitae ipsum et sagittis. Nullam vel tortor ut mi lobortis dapibus. Nunc sodales leo fermentum nibh congue, at semper tortor condimentum. Donec tincidunt libero lorem, at posuere magna semper at. Fusce at felis arcu. Maecenas tincidunt, libero ut sollicitudin egestas, nisi leo mattis diam, et malesuada nisi tellus commodo quam.",
+                    "image": "./img/others/others5.png"
+                },
+                {
+                    "id": "006",
+                    "name": "Peluche de Pikachu",
+                    "price": "300,00",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sem quam, venenatis ut efficitur in, posuere tristique dolor. Vestibulum vestibulum gravida ullamcorper. Integer tincidunt eleifend enim a fringilla. Duis accumsan vitae urna in placerat. Phasellus nec interdum lorem, at cursus nisl. Mauris aliquam faucibus urna ac venenatis. Donec non est euismod, mattis enim id, vulputate quam. Nam pulvinar vitae ipsum et sagittis. Nullam vel tortor ut mi lobortis dapibus. Nunc sodales leo fermentum nibh congue, at semper tortor condimentum. Donec tincidunt libero lorem, at posuere magna semper at. Fusce at felis arcu. Maecenas tincidunt, libero ut sollicitudin egestas, nisi leo mattis diam, et malesuada nisi tellus commodo quam.",
+                    "image": "./img/others/others6.png"
+                }
+                ]
+  }
